@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for the body */
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Primary color */
+    color: white;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.navbar-nav .nav-link {
+    color: #007bff; /* Primary color for links */
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: #e7f1ff; /* Light blue background */
+    color: #333; /* Dark text color */
+}
+
+/* Features Section Styles */
+.features-section {
+    background-color: #ffffff; /* White background */
+    padding: 50px 0; /* Additional padding */
+}
+
+.feature-box {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s; /* Smooth transition for hover */
+}
+
+.feature-box:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Contact Section Styles */
+.contact-section {
+    background-color: #e8f5e9; /* Light green background */
+    color: #333; /* Dark text color */
+    padding: 50px 0; /* Additional padding */
+}
+
+.contact-form .form-control {
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+.contact-form .btn-primary {
+    background-color: #28a745; /* Green button */
+    border-color: #28a745; /* Green border */
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section h2 {
+        font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+}
